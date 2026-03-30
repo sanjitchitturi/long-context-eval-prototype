@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Cache
+.cache/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Output files
+outputs/*.json
+outputs/*.log
+
+# Cloned repositories
+repos/
+.cache/repos/
+
+# Temporary files
+*.tmp
+*.bak
+
+# SQLite database
+*.db
+
+# Docker
+*.tar
