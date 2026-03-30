@@ -10,12 +10,12 @@ This repository contains a prototype that focuses on repository mining, metadata
 ## Project Goals
 The main goals of this project are:
 
-- Collect large open source repositories
-- Analyze repository structure and commit history
-- Identify candidate areas for long context engineering tasks
-- Generate structured dataset entries
-- Build a reproducible dataset generation pipeline
-- Support evaluation of coding agents on multi file and architectural tasks
+- Collect large open source repositories.
+- Analyze repository structure and commit history.
+- Identify candidate areas for long context engineering tasks.
+- Generate structured dataset entries.
+- Build a reproducible dataset generation pipeline.
+- Support evaluation of coding agents on multi file and architectural tasks.
 
 ## Current Prototype Features
 The current prototype includes the following features:
@@ -28,25 +28,6 @@ The current prototype includes the following features:
 - Prepare data for future task generation
 
 This prototype is an initial step toward building a full dataset generation and evaluation pipeline.
-
-## Repository Structure
-long-context-eval-prototype/
-
-README.md  
-requirements.txt  
-.gitignore  
-
-src/  
-repo_miner.py  
-
-config/  
-example_repos.json  
-
-outputs/  
-sample_report.json  
-
-docs/  
-dataset_schema.md  
 
 ## How It Works
 The prototype works in the following steps:
@@ -96,9 +77,3 @@ python src/repo_miner.py --repo-path /path/to/local/repo --output outputs/report
 Run using a remote repository:
 
 python src/repo_miner.py --repo-url https://github.com/example/repo.git --clone-dir .cache/repos --output outputs/report.json
-
-## Purpose of This Repository
-This repository is part of a larger project to build a long context coding evaluation dataset for realistic software engineering tasks. The prototype demonstrates the initial pipeline for repository analysis and dataset preparation.
-
-## License
-This project is for research and evaluation purposes and will be released under an open source license.
