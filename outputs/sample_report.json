@@ -1,0 +1,61 @@
+{
+  "repository_path": "/mnt/data/long-context-eval-prototype",
+  "repository_name": "long-context-eval-prototype",
+  "current_branch": "master",
+  "commit_count_estimate": 1,
+  "file_analysis": {
+    "total_files": 5,
+    "top_extensions": [
+      [
+        ".md",
+        1
+      ],
+      [
+        "[no_extension]",
+        1
+      ],
+      [
+        ".txt",
+        1
+      ],
+      [
+        ".py",
+        1
+      ],
+      [
+        ".json",
+        1
+      ]
+    ],
+    "estimated_languages": [
+      [
+        "Markdown",
+        1
+      ],
+      [
+        "Python",
+        1
+      ],
+      [
+        "JSON",
+        1
+      ]
+    ]
+  },
+  "recent_commits": [
+    {
+      "commit_hash": "b27b1106c3b3e31ecdee034576f8839610cedd14",
+      "author": "Your Name",
+      "date": "2026-03-30",
+      "subject": "Initial prototype for repository mining and task extraction",
+      "files_changed": [
+        ".gitignore",
+        "README.md",
+        "config/example_repos.json",
+        "requirements.txt",
+        "src/repo_miner.py"
+      ]
+    }
+  ],
+  "candidate_task_seeds": []
+}
