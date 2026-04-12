@@ -1,0 +1,14 @@
+{
+  "repositories": [
+    "https://github.com/expressjs/express",
+    "https://github.com/pallets/flask",
+    "https://github.com/psf/requests",
+    "https://github.com/fastify/fastify",
+    "https://github.com/gin-gonic/gin",
+    "https://github.com/tokio-rs/tokio",
+    "https://github.com/spring-projects/spring-boot",
+    "https://github.com/django/django",
+    "https://github.com/facebook/react",
+    "https://github.com/vuejs/core"
+  ]
+}
