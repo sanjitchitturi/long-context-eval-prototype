@@ -1,4 +1,5 @@
-"""Repository mining pipeline for long context coding evaluation dataset generation.
+"""
+Repository mining pipeline for long context coding evaluation dataset generation.
 
 Clones GitHub repositories, analyzes commit history, classifies tasks,
 and outputs structured evaluation seeds as JSON.
